@@ -98,6 +98,6 @@ app.get("*", (req, res) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`Server is up on port${port}`);
+app.listen(3000, () => {
+  console.log("Server is up on port 3000");
 });

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +22,8 @@
     "url": "https://github.com/marygladyfaustino/weather-website/issues"
   },
   "homepage": "https://github.com/marygladyfaustino/weather-website#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
 }
